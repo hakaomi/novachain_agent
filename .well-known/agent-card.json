@@ -1,0 +1,45 @@
+{
+  "name": "NovaChain Agents",
+  "description": "A2A agent runtime and MCP dashboard for wallet-aware execution swarms.",
+  "url": "https://your-novachain-agents.vercel.app",
+  "version": "1.0.0",
+  "author": "dataweb",
+  "capabilities": [
+    "mcp",
+    "a2a",
+    "tools",
+    "prompts",
+    "resources"
+  ],
+  "endpoints": {
+    "mcp": "https://your-novachain-agents.vercel.app/mcp",
+    "a2a": "https://your-novachain-agents.vercel.app/a2a",
+    "agentCard": "https://your-novachain-agents.vercel.app/.well-known/agent-card.json"
+  },
+  "skills": [
+    {
+      "name": "agent_status",
+      "description": "Audit live agent health, queue pressure, and assignment load."
+    },
+    {
+      "name": "route_task",
+      "description": "Route incoming jobs to the best available agent lane."
+    },
+    {
+      "name": "wallet_watch",
+      "description": "Watch wallet-linked signals and agent-trigger conditions."
+    },
+    {
+      "name": "health_audit",
+      "description": "Generate control-room style health summaries."
+    },
+    {
+      "name": "mcp_playbook",
+      "description": "Prepare MCP operating prompts for the swarm."
+    },
+    {
+      "name": "swarm_setup",
+      "description": "Design a multi-agent operating plan for a mission."
+    }
+  ]
+}
